@@ -1,0 +1,23 @@
+# 最强 YouTube 广告域名屏蔽
+# 覆盖 YouTube/Google Ads 全家桶
+
+DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
+DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
+DOMAIN-SUFFIX,securepubads.g.doubleclick.net,REJECT
+DOMAIN-SUFFIX,g.doubleclick.net,REJECT
+DOMAIN-SUFFIX,ad.doubleclick.net,REJECT
+DOMAIN-SUFFIX,adservice.google.com,REJECT
+DOMAIN-SUFFIX,adservice.google.com.hk,REJECT
+DOMAIN-SUFFIX,adservice.google.com.tw,REJECT
+DOMAIN-SUFFIX,ads.youtube.com,REJECT
+DOMAIN-SUFFIX,ads.google.com,REJECT
+
+# 视频缓冲广告投放流
+DOMAIN-SUFFIX,googlevideo.com,REJECT-TINYGIF
+
+# 广告 tracking
+DOMAIN-SUFFIX,analytics.google.com,REJECT
+DOMAIN-SUFFIX,googletagmanager.com,REJECT
+DOMAIN-SUFFIX,googletagservices.com,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,yt3.ggpht.com,REJECT-TINYGIF
