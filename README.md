@@ -15,3 +15,7 @@ first
 ✅ 最强广告过滤（YouTube + Google 全系）
 
 模块文件结构：
+module/
+├── youtube-ultimate.conf      (主模块)
+├── adblock.list               (广告域名阻断)
+└── rewrite.conf               (重写规则)
